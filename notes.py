@@ -1,4 +1,6 @@
-def moyenne(notes): """Moyenne d'une liste de notes.""" if len(notes) == 0:
+def moyenne(notes):
+ """Moyenne d'une liste de notes."""
+    if len(notes) == 0:
         return 0
     return sum(notes)/ len(notes)
 
