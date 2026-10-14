@@ -19,4 +19,7 @@ jobs:
           python-version: "3.12"
 
       - name: Installer pytest
+        run: pip install pytest
+
+      - name: Lancer les tests
         run: pytest -v
