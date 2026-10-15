@@ -14,5 +14,7 @@ def test_mention_bien():
 
 
 def test_mention_ajourne():
-    assert mention(8) == "Ajourné" 
+    assert mention(8) == "Ajourné"
 
+def test_mention_tresbien():
+    assert mention(16) == "Très bien"
